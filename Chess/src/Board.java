@@ -9,12 +9,12 @@ public class Board {
 
     public Piece[][] createPieces() {
         //create pieces
-        Piece king = new Piece("K");
-        Piece queen = new Piece("Q");
-        Piece bishop = new Piece("B");
-        Piece knight = new Piece("K");
-        Piece rook = new Piece("R");
-        Piece pawn = new Piece("P");
+        King king = new King();
+        Queen queen = new Queen();
+        Bishop bishop = new Bishop();
+        Knight knight = new Knight();
+        Rook rook = new Rook();
+        Pawn pawn = new Pawn();
 
         //set up the pieces on the correct starting position
         pieces = new Piece[][]{
